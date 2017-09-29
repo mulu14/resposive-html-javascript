@@ -1,0 +1,24 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 27, 2017, 12:22:53 PM
+    Author     : mulu17
+*/
+
+.developProduct{
+   width: 900px;
+    margin: 0 auto; 
+    position: relative; 
+    top: 20px;
+    margin-bottom: 5px; 
+    overflow: hidden;
+}
+
+#tetaris{
+    width:240px;
+    height: 400px;
+    border: solid #222222; 
+}

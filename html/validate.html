@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Mobile page</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet"  type="text/css" href="../css/mobile.css"> 
+         <link rel="stylesheet"  type="text/css" href="../css/formstyle.css">
+         <script src="../javascript/mobile.js"></script>
+         <script src="../javascript/style.js"></script>
+         <script src="../javascript/validate.js" > </script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+       
+
+
+    </head>
+    <body>
+        
+            <nav  class="side-navbar">
+                <div class="logo">
+                    <img src="../image/5.jpg" alt="logo">
+                </div>
+                <ul>
+                    <li class="disabled-link"><a  href="../index.html">Javascript slide</a> </li>
+                    <li class="disabled-link"><a href="Itsoftware.html">IT & Software</a> </li>
+                    <li class="disabled-link"><a href="development.html">Development</a> </li>
+                    <li class="disabled-link"><a href="validate.html">Valdation form</a> </li>
+                    <li class="disabled-link"><a href="design.html">Print Array </a> </li>
+                    <li class="disabled-link"><a href="business.html">Business</a> </li> 
+                    <li class="disabled-link"><a href="marketing.html">Marketing</a></li> 
+                    
+                  </ul>
+            </nav>
+        <main class="page-view">
+            <header>
+                <div class="menu">
+                    <span class="fa fa-list"></span>
+                </div>
+                <div class="header-logo">
+                    <img src="../image/5.jpg" alt="page main logo">
+                </div>
+                <nav>
+                   <ul>
+                       <li class="disabled-link"><a href="#"><span class="fa fa-user"></span>Login</a> </li> 
+                       <li class="disabled-link"><a href="#"><span class="fa fa-unlock"></span>Sign in</a></li>    
+                </ul>  
+                </nav>
+               
+            </header>
+            <section class="mainmenu">
+                <nav>
+                    <ul>
+                            <li class="disabled-link"><a  href="../index.html">Javascript slide</a> </li>
+                            <li class="disabled-link"><a href="Itsoftware.html">IT & Software</a> </li>
+                            <li class="disabled-link"><a href="development.html">Development</a> </li>
+                            <li class="disabled-link"><a href="validate.html">Valdation form</a> </li>
+                            <li class="disabled-link"><a href="design.html">Print Array </a> </li>
+                            <li class="disabled-link"><a href="business.html">Business</a> </li> 
+                            <li class="disabled-link"><a href="marketing.html">Marketing</a></li> 
+                            <li class="disabled-link"><a href="about.html">About</a></li> 
+        
+                        </ul>
+                </nav>
+            </section>
+            <section class="container">
+                <div class="box">
+                    <h3> Validate using Javascript  </h3>
+                       <form id="sendmail" class="form" name="formvalidation" action="https://formspree.io/muzefo03@gmail.com" method="post" onsubmit="validateForm();">
+                       <label> Name </label>
+                        <input type="text" id="name" name="userName"><br>
+                        <label>Password</label>
+                        <input type="password" id="password" name="password"><br>
+                        <label> Age </label>
+                        <input type="number" id="age" name="age"><br>
+                        <label> Subject </label>
+                        <input type="text" id="subject" name="subject"><br>
+                        <label> Message </label>
+                        <textarea id="message"></textarea> <br>
+                        <button type="submit" id="submit">Send Message</button>
+                    </form>
+                    <p id="demo"></p>
+                </div>
+                <div class="box">
+                    <div> <img src="../image/software.png" alt="software image "> </div>
+                        <p> Streaming for the first time accounted for most recorded music revenue in 
+                            the United States last year, bringing the industry its fastest
+                            growth in nearly 20 years, figures have revealed..</p>
+                </div>
+                <div class="box">
+                   <h3> Validate using HTML  </h3>
+                   <form  method="post" class="form" name="userD">
+                       <label> Name </label>
+                       <input type="text" id="name1" name="userName1" required=""><br>
+                        <label>Password</label>
+                        <input type="password" id="password1" name="password1"  pattern=".{6,}"><br>
+                        <label> Age </label>
+                        <input type="number" id="age1" name="age1" required=""><br>
+                        <label> Subject </label>
+                        <input type="text" id="subject1" name="subject1" required=""><br>
+                         <label> Message </label>
+                        <textarea id="message1"> </textarea> <br>
+                        <button type="submit" id="submit1" onclick="sendMail()">Click here</button>
+                    </form>
+                   
+                </div>
+                
+  
+            </section>
+            <section class="container">
+                <aside>
+                    <ul class="social-media">
+                        <li><a href="#"><span class="fa fa-facebook"></span></a> </li> 
+                        <li><a href="#"><span class="fa fa-youtube"></span></a> </li> 
+                        <li><a href="#"><span class="fa fa-google"></span></a> </li> 
+                        <li><a href="#"><span class="fa fa-instagram"></span></a> </li> 
+                    </ul> 
+                </aside>
+            </section>
+            <footer>
+                <p>&COPY;Copyright Mulugeta 2017</p>
+            </footer>
+        </main> 
+      
+    </body>
+</html>
+
+        

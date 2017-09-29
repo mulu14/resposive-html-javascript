@@ -1,0 +1,42 @@
+
+.form{
+    max-width: 400px;
+    padding: 20px 12px 10px 20px;
+    font: 13px Arial, Helvetica, sans-serif;
+}
+
+   .form label{
+    display: block;
+    margin: 0px 2px  5px 0px;
+}
+
+
+
+
+.form input[type='text'], .form input[type='password'], .form input[type='number']{
+     box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    border: 1px solid #C2C2C2;
+    box-shadow: 1px 1px 4px #EBEBEB;
+    -moz-box-shadow: 1px 1px 4px #EBEBEB;
+    -webkit-box-shadow: 1px 1px 4px #EBEBEB;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    padding: 7px;
+    outline: none;
+}
+.form li {
+    padding: 0;
+    display: block;
+    list-style: none;
+}
+
+textarea{
+    margin-top: 5px;
+    margin-bottom: 5px; 
+    width: 200px;
+    height: 100px; 
+}
+

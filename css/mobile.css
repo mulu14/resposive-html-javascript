@@ -1,0 +1,249 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 26, 2017, 9:10:23 PM
+    Author     : mulu17
+*/
+
+*{
+    margin: 0px; 
+    padding: 0px; 
+}
+
+.side-navbar{
+    position: fixed; 
+    width:200px; 
+    top: 0px;
+    bottom: 0px;
+    background: #222222; 
+    transform:translateX(-200px); 
+    transition: all 0.5s ease; 
+}
+.side-navbar.active-navbar{
+   transform: translateX(0px);   
+}
+
+.page-view{
+    position: relative; 
+    transition: all 0.5s ease; 
+}
+.page-view.shift-page{
+    transform: translateX(200px); 
+}
+header{
+    width:100%; 
+    height:60px;
+    background: #fff;
+    position: relative; 
+    box-shadow: 0px -1px 5px 0px black; 
+    position: relative; 
+    
+}
+.fa-list{
+    position: relative; 
+    top: 10px; 
+    left: 5px; 
+    font-size: 40px;  
+    cursor: pointer; 
+}
+
+.container{
+    width: 900px;
+    margin: 0 auto; 
+    position: relative; 
+    top: 20px; 
+    overflow: hidden; 
+}
+.mainmenu{
+   width: 900px;
+   margin: 2px auto; 
+   position: relative; 
+   top: 20px; 
+   overflow: hidden; 
+   border: 1px solid grey; 
+   height: 80px; 
+   background-color: #222222; 
+}
+.mainmenu nav{
+    margin-top: 30px; 
+}
+.mainmenu nav ul li{
+    list-style: none; 
+    display: inline-block; 
+    margin: 0 10px; 
+}
+.mainmenu nav ul li a{
+    text-decoration: none; 
+    color: #eee; 
+    
+}
+.fa-search{
+    color: #eee;
+}
+
+header nav {
+    position: absolute; 
+    right: 0px; 
+    top: 15px; 
+    right: 200px; 
+}
+
+header nav ul li{
+    list-style: none; 
+    width: 80px; 
+    float: left; 
+}
+.logo{
+    width: 200px; 
+    height: 60px;
+    border-bottom: 1px solid grey; 
+}
+header nav ul li a{
+    text-decoration: none; 
+    color: #222222; 
+    font-size :16px;
+    font-family: sans-serif,Areial;  
+}
+.fa{
+    margin-right: 5px; 
+}
+
+body{
+    overflow-x:hidden; 
+}
+.side-navbar ul li{
+    width:100%; 
+    height: 50px;
+    line-height: 50px;
+    text-align: left; 
+        
+}
+.side-navbar ul li a {
+    display: block; 
+    padding-left: 5px;
+    color:#eee; 
+    font-size:16px;
+    font-family: sans-serif, Arial; 
+    text-decoration: none; 
+}
+.side-navbar ul li a:hover, .side-navbar ul li a:focus {
+   background: black;
+   border-right: 3px solid red; 
+}
+
+.header-logo{
+    position: relative;
+    left:50px;
+    top: -20px; 
+    
+}
+
+.header-logo.disabled-logo{
+    display:none; 
+}
+.box{
+    width: 300px; 
+    height: auto;
+    float: left; 
+}
+.box div{
+    width:200px;
+    margin: 0 auto; 
+}
+.box div img{
+    width:200px;
+    height: 200px;
+    margin: 0 auto; 
+    overflow: hidden; 
+}
+.box p{
+    margin-left:1px;
+    padding-left: 1px; 
+    margin-right:1px;
+    padding-right: 1px; 
+}
+.container aside .social-media{
+    width: 120px; 
+    height: 40px;
+    margin: 0 auto; 
+}
+.container aside .social-media li{
+    list-style: none; 
+    display: inline-block; 
+    
+}
+
+#slide {
+    height: 450px;
+    width: 80%; 
+    margin: auto; 
+    position: relative; 
+}
+
+#slide .img{
+     height: 100%; 
+     width :100%;  
+     position: absolute; 
+     
+}
+
+#slide button{
+    position: absolute; 
+    width:50px; 
+    height: 50px; 
+    border: none;
+    border-radius: 25px; 
+    top: 200px; 
+    background: black; 
+    color: white; 
+    font-size: 20px; 
+}
+
+#slide>#but2{
+    position: relative; 
+    float: right; 
+}
+.container aside .social-media a{
+    text-decoration: none; 
+    display: inline-block; 
+}
+.animal {
+    
+    width: 900px;
+    margin: 0 auto; 
+    position: relative; 
+    top: 20px;
+    margin-bottom: 5px; 
+    overflow: hidden; 
+}
+
+footer{
+    position: relative; 
+    width: 100%;
+    height: 60px; 
+    margin-top: 20px; 
+}
+footer p {
+    text-align: center;
+}
+
+@media screen and (max-width:768px){
+    .disabled-link{
+        display: none; 
+    }
+    .mainmenu{
+        display: none; 
+    }
+    .container{
+        width:100%;
+    }
+    .box{
+    width: 300px; 
+    height: auto;
+    float: none;
+    padding: 5%; 
+}
+}
